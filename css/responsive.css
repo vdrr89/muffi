@@ -1,0 +1,10 @@
+/* small screens */ 
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    @import url(colores.css);
+
+}
+
+/* phones and tablets */
+@media screen and (max-width: 768px){
+    @import url(colores.css);
+}
