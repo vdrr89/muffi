@@ -8,20 +8,20 @@ y en caso de cambiarlos, solo se cambia acá
 
 :root{
 
-    /* verdes principales */
-    --green-light-color: #6e911b;
-    --green-logo-color: #4E6005;
-    --green-color: #78930e; /* este es el principal */
-    --green-dark-color: #2b4102;
-    --green-fluor-transp-40-color: #2ee59d66; /* abrillantado para efecto en botones */
+    /* principales */
+    --principal-light-color: #d6343d;
+    --principal-color: #9c060e;
+    --principal-dark-color: #570408; 
+
+    /* opuestos */
+    --opposite-light-color: #1c7dec;
+    --opposite-color: #064c9c;
+    --opposite-dark-color: #031f3f;
 
     /* botones */
     --green-btn-color: #4CAF50;
     --red-btn-color: #BF0404;
     --skyblue-btn-color: skyblue;
-
-    /* links */
-    --blue-link-color: #2eaaff;
 
     /* escala de grises */
     --white-color: white;
