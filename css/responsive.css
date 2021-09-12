@@ -1,20 +1,25 @@
-/* @media screen and (min-width: 900px) and (max-width: 1024px){
+@media screen and (min-width: 900px) and (max-width: 1024px){
     @import url(colores.css);
 
-} */
+    .first img {
+        margin-top: 10%;
+    }
+
+}
 
 /* small screens */ 
-@media screen and (min-width: 750px) and (max-width: 899px){
+@media screen and (min-width: 633px) and (max-width: 899px){
     @import url(colores.css);
-/* 
-    .caroussell {
-        top: 66%;
-        height: 135vh;
-    } */
+
+    .first img {
+        margin-top: 15%;
+    }
+
 }
 
 /* phones and tablets */
 @media screen and (max-width: 749px){
     @import url(colores.css);
+
 
 }
