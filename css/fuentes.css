@@ -12,6 +12,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+*::selection{
+    background-color: var(--principal-color);
+}
+
 p, li, a, blockquote {
     font-size: 1.5rem;
     color: var(--gray90-color);
@@ -44,4 +48,22 @@ li {
 .menu-item:visited{
     color: var(--principal-dark-color);
     text-shadow: 2px 2px 2px var(--principal-color);
+}
+
+.menu-item::selection{
+    background-color: var(--opposite-color);
+}
+
+/* ------------------- FOOTER ------------------- */
+.footer-title{
+    text-shadow: none;
+    font-size: 2rem;
+    color: var(--white-color);
+    text-align: center;
+    font-weight: 800;
+}
+
+.footer-title::selection {
+    background-color: var(--principal-color);
+    text-shadow: none;
 }

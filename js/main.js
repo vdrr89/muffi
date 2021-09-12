@@ -1,3 +1,18 @@
+// ------------------- ABOUT -------------------
+var about = document.getElementById("about");
+var aboutContent = document.getElementById("about-content");
+
+function getAboutContent(about){
+    var myRequest = new Request('../about.txt');
+    fetch(myRequest).then(function(response){
+      return response.text().then(function(text){
+        aboutContent.innerHTML = text;
+      });
+    });
+  };
+  
+  getAboutContent(aboutContent);
+
 // ------------------- CONTACTO: REDES SOCIALES -------------------
 var socialNet = document.getElementById("social-networks");
 var socialNetworks = [
