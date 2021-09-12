@@ -35,26 +35,18 @@ html, body {
 
 /* ------------------- FIRST ------------------- */
 .first{
-    /* position: fixed; */
     position: relative;
     display: block;
-    /* z-index: -10; */
     width: 100%;
     height: 100vh;
     background-color: var(--black-color);
     background-repeat: no-repeat;
 }
 
-.first img {
-    margin: 10% auto;
-    height: 80vh;
-}
 /* ------------------- CAROUSELL ------------------- */
 .caroussell{
     position: relative;
     display: block;
-    /* top: 74%;
-    height: 145vh; */
 }
 
 .d-block{
